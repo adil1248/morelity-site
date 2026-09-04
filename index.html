@@ -1,101 +1,377 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-pt-20">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Morelity — Acquired by Gooi Global / Gooi Mortgage</title>
-<meta name="description" content="Morelity provided big data and machine learning tools to small and mid-size banks from 2015-2017. The company was acquired by Gooi Global / Gooi Mortgage.">
-<meta name="robots" content="index,follow">
-<style>
-  :root {
-    color-scheme: light dark;
-    --bg: #fafafa;
-    --fg: #1a1a1a;
-    --muted: #555555;
-    --accent: #2b4c7e;
-    --border: #e0e0e0;
-    --card: #ffffff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #121212;
-      --fg: #eaeaea;
-      --muted: #a8a8a8;
-      --accent: #7ea6e0;
-      --border: #2a2a2a;
-      --card: #1a1a1a;
-    }
-  }
-  * { box-sizing: border-box; }
-  html, body {
-    margin: 0;
-    padding: 0;
-    background: var(--bg);
-    color: var(--fg);
-  }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 1.25rem;
-  }
-  main {
-    max-width: 34rem;
-    width: 100%;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 2.5rem 2rem;
-  }
-  h1 {
-    font-size: 1.75rem;
-    margin: 0 0 0.35rem;
-    letter-spacing: -0.02em;
-  }
-  .notice {
-    display: inline-block;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--accent);
-    border: 1px solid var(--accent);
-    border-radius: 999px;
-    padding: 0.25rem 0.75rem;
-    margin-bottom: 1.25rem;
-  }
-  p {
-    color: var(--muted);
-    margin: 0 0 1rem;
-  }
-  p:last-of-type {
-    margin-bottom: 0;
-  }
-  a {
-    color: var(--accent);
-  }
-  footer {
-    margin-top: 2rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--border);
-    font-size: 0.8rem;
-    color: var(--muted);
-  }
-</style>
+<title>Morelity — Do More With Your Data</title>
+<meta name="description" content="Morelity was a subscription data analytics platform for financial institutions, built in Des Moines, Iowa. Acquired by K4.">
+<meta name="theme-color" content="#893d97">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/img/mark-256.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Morelity — Do More With Your Data">
+<meta property="og:description" content="A subscription data analytics platform for financial institutions. Des Moines, Iowa, 2015–2018. Acquired by K4.">
+<meta property="og:image" content="assets/img/mark-256.png">
 </head>
-<body>
-<main>
-  <span class="notice">Company acquired</span>
-  <h1>Morelity</h1>
-  <p>Morelity was acquired by <a href="https://gooimortgage.com/" rel="noopener">Gooi Global / Gooi Mortgage</a>. This page is kept online as a record of the company for anyone looking for it.</p>
-  <p>From 2015 to 2017, Morelity was an early mover in applying machine learning and audience modeling to help small and mid-size banks make better use of their data.</p>
-  <footer>
-    Morelity LLC — Copyright © 2026 Morelity - All Rights Reserved.
-  </footer>
-</main>
+<body class="font-sans">
+
+<!-- ── Header ───────────────────────────────────────────── -->
+<header id="site-header" class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-brand-950/70 backdrop-blur-md transition-colors duration-300">
+  <div class="wrap flex h-16 items-center justify-between">
+    <a href="#top" class="flex items-center gap-2.5">
+      <img src="assets/img/mark.png" alt="" class="h-7 w-auto brightness-0 invert" width="369" height="357">
+      <span class="text-[15px] font-light tracking-[0.02em] text-white">morelity</span>
+    </a>
+    <nav class="flex items-center gap-5 text-[13px] font-medium text-white/80 sm:gap-7 sm:text-sm">
+      <a href="#platform" class="transition hover:text-white">Platform</a>
+      <a href="#customers" class="hidden transition hover:text-white sm:inline">Customers</a>
+      <a href="#team" class="transition hover:text-white">Team</a>
+      <a href="#history" class="transition hover:text-white">History</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section id="top" class="relative isolate overflow-hidden bg-brand-950 pt-16">
+  <div class="pointer-events-none absolute inset-0 -z-10" aria-hidden="true">
+    <div class="absolute inset-0 bg-[radial-gradient(60%_70%_at_20%_10%,#52216f_0%,transparent_60%),radial-gradient(50%_60%_at_85%_25%,#6f2c91_0%,transparent_65%),linear-gradient(180deg,#2b1440_0%,#351a4e_60%,#2b1440_100%)]"></div>
+    <svg class="absolute inset-0 h-full w-full opacity-80" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#c193cc" stop-opacity="0.55"/>
+          <stop offset="100%" stop-color="#893d97" stop-opacity="0.05"/>
+        </linearGradient>
+        <radialGradient id="dot">
+          <stop offset="0%" stop-color="#e0c8e6"/>
+          <stop offset="100%" stop-color="#a35fae" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <g stroke="url(#edge)" stroke-width="1" fill="none" class="mesh-drift">
+        <path d="M120 520 L300 380 L520 440 L700 300 L940 360 L1120 220"/>
+        <path d="M60 260 L300 380 L460 190 L700 300 L880 140"/>
+        <path d="M300 380 L340 620 L520 440 L640 640 L700 300"/>
+        <path d="M940 360 L1040 570 L700 300"/>
+        <path d="M460 190 L520 440"/>
+        <path d="M120 520 L340 620"/>
+      </g>
+      <g fill="url(#dot)" class="mesh-pulse">
+        <circle cx="300" cy="380" r="26"/><circle cx="700" cy="300" r="30"/>
+        <circle cx="520" cy="440" r="20"/><circle cx="940" cy="360" r="22"/>
+        <circle cx="460" cy="190" r="16"/><circle cx="340" cy="620" r="16"/>
+        <circle cx="1040" cy="570" r="14"/><circle cx="120" cy="520" r="14"/>
+      </g>
+    </svg>
+    <div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-b from-transparent to-brand-950"></div>
+  </div>
+
+  <div class="wrap flex min-h-[72vh] flex-col justify-center py-24 sm:py-32">
+    <img src="assets/img/morelity-logo-white@3x.png" alt="Morelity"
+         class="mb-9 h-20 w-auto self-start sm:h-28" width="867" height="630">
+
+    <h1 class="max-w-3xl text-[1.75rem] font-light leading-[1.25] tracking-tight text-white sm:text-5xl sm:leading-[1.15]">
+      Morelity was a subscription data analytics platform for financial institutions.
+    </h1>
+
+    <p class="mt-6 text-xl font-medium tracking-tight text-brand-200 sm:text-2xl">Acquired by K4.</p>
+
+    <p class="mt-10 text-sm text-white/65">Des&nbsp;Moines, Iowa &nbsp;·&nbsp; 2015&ndash;2018</p>
+
+    <a href="#platform" class="group mt-14 inline-flex w-fit items-center gap-2 text-sm font-medium text-white/85 transition hover:text-white">
+      What it did
+      <svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-y-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+        <path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<!-- ── Tagline band ─────────────────────────────────────── -->
+<section class="border-b border-brand-200 bg-white py-16 sm:py-20">
+  <div class="wrap reveal">
+    <p class="text-center text-3xl font-light tracking-tight text-brand-700 sm:text-5xl">Do More With Your Data.</p>
+  </div>
+</section>
+
+<!-- ── Platform ─────────────────────────────────────────── -->
+<section id="platform" class="scroll-mt-20 py-20 sm:py-28">
+  <div class="wrap">
+    <div class="reveal max-w-3xl">
+      <p class="eyebrow">The platform</p>
+      <h2 class="h2 mt-3">Micro-targeted data enrichment, plus data science services.</h2>
+      <p class="prose-body mt-5">
+        Morelity broadened and deepened a financial institution's customer-centric marketing approach.
+        Subscribers received targeted audiences every month and self-serve access to a cloud visualization
+        platform for comparing, dissecting and profiling their own customer data against regional data.
+      </p>
+    </div>
+
+    <div class="mt-12 grid gap-5 sm:grid-cols-3">
+      <div class="card reveal">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-100 text-brand-600">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="3.2"/><circle cx="12" cy="12" r="8.2" opacity=".45"/>
+          </svg>
+        </div>
+        <h3 class="mt-5 text-base font-semibold text-ink-900">Customer centricity</h3>
+        <p class="mt-2 text-[15px] leading-7 text-ink-500">
+          Securely enrich an institution's existing customer data to unlock cross-sell opportunities
+          and predictive look-alike audiences.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-100 text-brand-600">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <path d="M3 20l7.5-7.5M21 4l-6.5 6.5M14 4h7v7" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="10.5" cy="12.5" r="2.2"/>
+          </svg>
+        </div>
+        <h3 class="mt-5 text-base font-semibold text-ink-900">Customer targeting</h3>
+        <p class="mt-2 text-[15px] leading-7 text-ink-500">
+          Custom audiences built per financial product, so marketing effort concentrated on the
+          individuals most likely to need that product.
+        </p>
+      </div>
+
+      <div class="card reveal">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-100 text-brand-600">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <path d="M4 19V9M9.5 19V5M15 19v-7M20.5 19v-4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="mt-5 text-base font-semibold text-ink-900">Data science &amp; modeling</h3>
+        <p class="mt-2 text-[15px] leading-7 text-ink-500">
+          On-site, hands-on senior data science consulting alongside the subscription, including
+          proprietary models built to an institution's own products.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Numbers ──────────────────────────────────────────── -->
+<section class="bg-brand-50 py-16 sm:py-20">
+  <div class="wrap">
+    <dl class="grid grid-cols-2 gap-y-10 sm:grid-cols-4">
+      <div class="reveal">
+        <dt class="text-3xl font-light tracking-tight text-brand-700 sm:text-4xl">220M+</dt>
+        <dd class="mt-2 text-xs uppercase tracking-[0.14em] text-ink-500">consumer records</dd>
+      </div>
+      <div class="reveal">
+        <dt class="text-3xl font-light tracking-tight text-brand-700 sm:text-4xl">400</dt>
+        <dd class="mt-2 text-xs uppercase tracking-[0.14em] text-ink-500">modeling variables</dd>
+      </div>
+      <div class="reveal">
+        <dt class="text-3xl font-light tracking-tight text-brand-700 sm:text-4xl">100</dt>
+        <dd class="mt-2 text-xs uppercase tracking-[0.14em] text-ink-500">audiences / month</dd>
+      </div>
+      <div class="reveal">
+        <dt class="text-3xl font-light tracking-tight text-brand-700 sm:text-4xl">&lt;12 min</dt>
+        <dd class="mt-2 text-xs uppercase tracking-[0.14em] text-ink-500">to build an audience model</dd>
+      </div>
+    </dl>
+    <p class="reveal mt-10 text-xs leading-5 text-ink-500">
+      Figures as stated in Morelity's own 2017&ndash;2018 platform materials.
+    </p>
+  </div>
+</section>
+
+<!-- ── Customers ────────────────────────────────────────── -->
+<section id="customers" class="scroll-mt-20 py-20 sm:py-28">
+  <div class="wrap grid gap-14 lg:grid-cols-[1.1fr_1fr] lg:gap-20">
+    <div class="reveal">
+      <p class="eyebrow">Who it served</p>
+      <h2 class="h2 mt-3">Mortgage lenders — reverse mortgage above all.</h2>
+      <p class="prose-body mt-5">
+        The subscription went to market through a limited pilot program: ten partners, each receiving
+        one hundred targeted reverse-mortgage audiences a month plus full use of the platform. Pilots were
+        signed electronically, followed by a setup wizard, a hands-on tutorial, and then the partner's first
+        audience requests.
+      </p>
+      <p class="prose-body mt-4">
+        Signed pilot pricing ran from <strong class="font-semibold text-ink-900">$2,900</strong> to
+        <strong class="font-semibold text-ink-900">$6,000</strong> per month.
+      </p>
+      <ul class="mt-8 space-y-3 text-sm text-ink-700">
+        <li class="flex gap-3">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-400"></span>
+          <span><strong class="font-semibold text-ink-900">Reverse Market Insight</strong> — pilot and referral channel partner.</span>
+        </li>
+        <li class="flex gap-3">
+          <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-400"></span>
+          <span><strong class="font-semibold text-ink-900">Open Mortgage</strong> — pilot partner, Austin, Texas.</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="reveal rounded-2xl bg-brand-950 p-8 text-white sm:p-10">
+      <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand-300">Standards &amp; IP</p>
+      <h3 class="mt-3 text-xl font-semibold tracking-tight">Built against the industry's own data standards.</h3>
+      <p class="mt-4 text-sm leading-7 text-white/80">
+        Morelity worked against the Uniform Appraisal Dataset and the Uniform Loan Application Dataset
+        under the Uniform Mortgage Data Program — the GSE specifications every lender's loan file has to
+        satisfy.
+      </p>
+      <hr class="my-7 border-white/10">
+      <p class="text-sm leading-7 text-white/80">
+        In 2018 the company opened a joint partnership to develop distributed-ledger intellectual property,
+        intended first for a partner platform and then as a ledger system integrable with others.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Team ─────────────────────────────────────────────── -->
+<section id="team" class="scroll-mt-20 border-t border-brand-200 py-20 sm:py-28">
+  <div class="wrap">
+    <div class="reveal max-w-3xl">
+      <p class="eyebrow">The team</p>
+      <h2 class="h2 mt-3">A product team with data science at the center of it.</h2>
+      <p class="prose-body mt-5">
+        Morelity ran a dedicated data science function with its own seniority track, recruiting out of
+        academic research as well as industry, supported by product, engineering and a national
+        solutions desk.
+      </p>
+    </div>
+
+    <ul class="mt-12 grid overflow-hidden rounded-2xl border border-brand-200 sm:grid-cols-2">
+      <li class="reveal flex items-baseline justify-between gap-4 border-b border-brand-200 px-6 py-5 sm:border-r">
+        <span class="font-medium text-ink-900">Adil Khan</span>
+        <span class="text-right text-sm text-ink-500">Founder</span>
+      </li>
+      <li class="reveal flex items-baseline justify-between gap-4 border-b border-brand-200 px-6 py-5">
+        <span class="font-medium text-ink-900">Byron Olson</span>
+        <span class="text-right text-sm text-ink-500">Chief Data Scientist</span>
+      </li>
+      <li class="reveal flex items-baseline justify-between gap-4 border-b border-brand-200 px-6 py-5 sm:border-r">
+        <span class="font-medium text-ink-900">Felix Eilers</span>
+        <span class="text-right text-sm text-ink-500">Sr. Data Scientist</span>
+      </li>
+      <li class="reveal flex items-baseline justify-between gap-4 border-b border-brand-200 px-6 py-5">
+        <span class="font-medium text-ink-900">Shalyn Guthery</span>
+        <span class="text-right text-sm text-ink-500">Data Scientist</span>
+      </li>
+      <li class="reveal flex items-baseline justify-between gap-4 border-b border-brand-200 px-6 py-5 sm:border-r sm:border-b-0">
+        <span class="font-medium text-ink-900">Michael Brook</span>
+        <span class="text-right text-sm text-ink-500">Principal Consultant</span>
+      </li>
+      <li class="reveal flex items-baseline justify-between gap-4 px-6 py-5">
+        <span class="font-medium text-ink-900">Korey Miller</span>
+        <span class="text-right text-sm text-ink-500">National Solutions Manager</span>
+      </li>
+    </ul>
+
+    <div class="reveal mt-12 rounded-2xl border border-brand-200 bg-brand-50 p-8 sm:p-10">
+      <p class="eyebrow">Founder</p>
+      <p class="prose-body mt-3 max-w-3xl">
+        Morelity was founded by <strong class="font-semibold text-ink-900">Adil Khan</strong>, who led product
+        from April 2015 to October 2018 — owning the platform roadmap, speaking for the company to the
+        mortgage industry, and running partnerships and corporate development, including the
+        distributed-ledger initiative and the GSE data-standards work.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ── History ──────────────────────────────────────────── -->
+<section id="history" class="scroll-mt-20 bg-brand-950 py-20 text-white sm:py-28">
+  <div class="wrap">
+    <div class="reveal max-w-3xl">
+      <p class="text-xs font-semibold uppercase tracking-[0.18em] text-brand-300">History</p>
+      <h2 class="mt-3 text-2xl font-semibold tracking-tight sm:text-3xl">Three and a half years, Des Moines.</h2>
+    </div>
+
+    <ol class="mt-12 grid gap-x-14 border-l border-white/20 lg:grid-cols-2">
+      <li class="reveal relative pl-8 pb-10">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">April 2015</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">Morelity founded in Des Moines, Iowa.</p>
+      </li>
+      <li class="reveal relative pl-8 pb-10">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">December 2016</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">morelity.com live as a single-page application under the line <span class="text-white">Do More With Your Data</span>.</p>
+      </li>
+      <li class="reveal relative pl-8 pb-10">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">2016 &ndash; 2017</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">Data science team built out; platform and audience modeling in production.</p>
+      </li>
+      <li class="reveal relative pl-8 pb-10">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">February 2018</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">Pilot program in market at $2,900&ndash;$6,000 per month; Reverse Market Insight and Open Mortgage in the funnel.</p>
+      </li>
+      <li class="reveal relative pl-8 pb-10">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-brand-400"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">2018</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">UAD/ULAD work under the Uniform Mortgage Data Program; distributed-ledger IP partnership opened.</p>
+      </li>
+      <li class="reveal relative pl-8">
+        <span class="absolute -left-[5px] top-1.5 h-2.5 w-2.5 rounded-full bg-white"></span>
+        <p class="text-xs uppercase tracking-[0.16em] text-brand-300">October 2018</p>
+        <p class="mt-2 text-[15px] leading-7 text-white/85">End of Morelity's operating period. Acquired by K4.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ── Footer ───────────────────────────────────────────── -->
+<footer class="border-t border-brand-200 bg-white py-14">
+  <div class="wrap flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+    <div>
+      <img src="assets/img/morelity-logo@3x.png" alt="Morelity" class="h-14 w-auto" width="867" height="630">
+      <p class="mt-5 text-sm text-ink-500">Do More With Your Data.</p>
+    </div>
+    <div class="text-sm leading-7 text-ink-500 sm:text-right">
+      <p>317 6th Avenue, Suite 400</p>
+      <p>Des Moines, Iowa 50309</p>
+      <p class="mt-4 text-xs text-ink-500">Archival record of Morelity, LLC &middot; 2015&ndash;2018 &middot; acquired by K4.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.reveal');
+  if (!('IntersectionObserver' in window)) {
+    Array.prototype.forEach.call(els, function (el) { el.classList.add('is-in'); });
+  } else {
+    Array.prototype.forEach.call(document.querySelectorAll('.grid, ul, ol, dl'), function (group) {
+      Array.prototype.forEach.call(group.children, function (el, i) {
+        if (el.classList.contains('reveal')) el.dataset.d = i * 70;
+      });
+    });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.style.transitionDelay = (e.target.dataset.d || 0) + 'ms';
+        e.target.classList.add('is-in');
+        io.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 });
+    Array.prototype.forEach.call(els, function (el) { io.observe(el); });
+  }
+
+  var header = document.getElementById('site-header');
+  var onScroll = function () {
+    var solid = window.scrollY > window.innerHeight * 0.7;
+    header.classList.toggle('bg-brand-950/95', solid);
+    header.classList.toggle('bg-brand-950/70', !solid);
+  };
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+})();
+</script>
+
+<style>
+  @keyframes meshDrift { 0%,100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(-18px,10px,0); } }
+  @keyframes meshPulse { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+  .mesh-drift { animation: meshDrift 22s ease-in-out infinite; }
+  .mesh-pulse { animation: meshPulse 7s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { .mesh-drift, .mesh-pulse { animation: none; } }
+</style>
+
 </body>
 </html>
